@@ -2,38 +2,6 @@ CREATE DATABASE `skoob2`; -- Criando o banco de dados
 USE `skoob2`; -- Indicando o uso do banco de dados
 
 ----------------------------------------
---        Tabela de Categorias        --
-----------------------------------------
-CREATE TABLE IF NOT EXISTS `Categories` (
-  `categorie_id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(30) NOT NULL,
-  `status` boolean NOT NULL,
-  PRIMARY KEY (`categories_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3;
-
-----------------------------------------
---          Tabela de Livros          --
-----------------------------------------
-CREATE TABLE IF NOT EXISTS `Books` (
-  `book_id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(30) NOT NULL,
-  `autor` varchar(30) NOT NULL,
-  `mid_name` varchar(30) NOT NULL,
-  `address` varchar(30) NOT NULL,
-  `contact` varchar(30) NOT NULL,
-  `comment` text NOT NULL,
-  PRIMARY KEY (`people_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3;
-
---
--- Dumping data for table `people`
---
-
-INSERT INTO `people` (`people_id`, `first_name`, `last_name`, `mid_name`, `address`, `contact`, `comment`) VALUES
-(1, 'Joken', 'Villanuevas', 'Entierro', 'Kabankalan City', '9289324734', 'Programming is fun!'),
-(2, 'Charlotte', 'Embang', 'Etabag', 'Guanzon Street', '23124123', 'just another comment!');
-
-----------------------------------------
 --          Tabela de Livros          --
 ----------------------------------------
 CREATE TABLE book (
@@ -42,7 +10,6 @@ CREATE TABLE book (
         author VARCHAR(100) NOT NULL,
         description TEXT NOT NULL
     );
-
 
 ----------------------------------------
 --        Tabela de Categorias        --

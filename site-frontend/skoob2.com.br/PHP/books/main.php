@@ -11,8 +11,6 @@
 	
 	<h2>List of books</h2>
 	<br/>
-	<a href="create.php">Add New (CREATE)</a>
-	<br/><br/>
 	<table border="1"> 
 		<thead>
 			<tr>
@@ -43,8 +41,6 @@
 					echo '<td>'.($row['status_name']??'No status').'</td>';
 					echo '<td>';
 						echo '<a href="detail.php?id='.$row['book_id'].'" >Detail (READ)</a><br/>';
-						echo '<a href="edit.php?id='.$row['book_id'].'">Edit (UPDATE)</a><br/>';
-						echo '<a href="delete.php?id='.$row['book_id'].'">Remove (DELETE)</a><br>';
 						echo '<a href="../status/assign.php?id='.$row['book_id'].'">status (update(i think))</a>';
 					echo '</td>';
 				echo '</tr> ';

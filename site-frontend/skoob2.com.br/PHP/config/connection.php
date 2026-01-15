@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
-$user = 'root';
-$pass = '';          // senha vazia no XAMPP padrão
+$user = 'skoob';
+$pass = 'ifrn';          // senha vazia no XAMPP padrão
 $db   = 'skoob2';    // nome do bd local
 
 $db = mysqli_connect($host, $user, $pass, $db);
