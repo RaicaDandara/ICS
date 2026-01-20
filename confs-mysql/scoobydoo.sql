@@ -1,5 +1,5 @@
-CREATE DATABASE `skoob2`; -- Criando o banco de dados
-USE `skoob2`; -- Indicando o uso do banco de dados
+CREATE DATABASE `scoobydoo`; -- Criando o banco de dados
+USE `scoobydoo`; -- Indicando o uso do banco de dados
 
 ----------------------------------------
 --          Tabela de Livros          --
