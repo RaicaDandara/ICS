@@ -9,6 +9,7 @@
 		$name = $_POST['name'];
 		
         include '../config/connection.php';
+		include '../header.php';
 		
 		$query = 'UPDATE category set name ="'.$name.'"
 				WHERE category_id ="'.$id.'"';

@@ -6,7 +6,7 @@
 <body>
 
 	<h1 class="page-header">
-		CRUD das categoriasssssss
+		CRUD das Categorias
 	</h1>
 	
 	<h2>List of categories</h2>

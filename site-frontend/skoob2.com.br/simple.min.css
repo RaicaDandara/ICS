@@ -535,3 +535,10 @@ progress::-moz-progress-bar{
 progress:indeterminate::-moz-progress-bar{
     background-color:var(--accent-bg)
 }
+
+td > a {
+    color: black;
+}
+td > a:hover{
+    color: darkgoldenrod;
+}

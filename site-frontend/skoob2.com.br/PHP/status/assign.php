@@ -1,5 +1,6 @@
 <?php
 include '../config/connection.php';
+include '../header.php';
 
 $books = mysqli_query($db, "SELECT * FROM book");
 $statuses = mysqli_query($db, "SELECT * FROM reading_status");

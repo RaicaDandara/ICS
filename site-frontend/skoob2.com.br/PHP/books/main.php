@@ -6,7 +6,7 @@
 <body>
 
 	<h1 class="page-header">
-		CRUD dos livros
+		CRUD dos Livros
 	</h1>
 	
 	<h2>List of books</h2>

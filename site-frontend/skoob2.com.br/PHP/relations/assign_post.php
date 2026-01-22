@@ -5,6 +5,7 @@
 
     <?php
     include '../config/connection.php';
+    include 'header.php';
     ?>
 
     <body>

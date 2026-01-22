@@ -1,5 +1,6 @@
 <?php
 include '../config/connection.php';
+include '../header.php';
 
 $books = mysqli_query($db, "SELECT * FROM book");
 $categories = mysqli_query($db, "SELECT * FROM category");

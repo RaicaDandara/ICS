@@ -3,10 +3,10 @@
         
     <?php
         include 'config/connection.php';
-        include 'header.php';
+        include '../header.php';
     ?>
 
-    <h1>Skoob (falsificado)</h1>
+    <h1>Skooby-duo</h1>
 
     <a href="books/main.php">Books</a><br>
     <a href="categories/main.php">Categories</a><br>
